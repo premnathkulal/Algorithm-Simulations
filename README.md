@@ -1,13 +1,30 @@
-## List of Algorithms
+## Simulation Of Travelling Salesman Algorithms
 
-### [Dijkstra's Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/dijkstra-algorithm)
+This is a **C-code** for **Simulation Of Travelling Salesman Algorithms** using **OpenGL** library.
 
-### [Kruskal's Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/kruskal-algorithm)
+### Steps to run the code.
 
-### [Prims Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/prims-algorithm)
+You need to install OpenGL library.
 
-### Traveling salesman Algorithm
+```
+sudo apt-get update.
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
 
-### [Huffman Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/huffman-algorithm)
+Compiling the code.
 
-### [Helicopter Game](https://github.com/premnathkulal/Algorithm-Simulations/tree/helicopter-game)
+```
+gcc -o out  main.c  -lGL -lglut -lGLU  -lm -std=c99
+```
+
+Running the Code.
+
+```
+./out
+```
+
+### Sample Output
+
+It will consider initially created node (A) as root node or Initial node.
+
+<img align="left" alt="output" width="60%" src="./assets/output.png" />
