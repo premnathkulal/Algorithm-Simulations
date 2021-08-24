@@ -1,11 +1,28 @@
-## List of Algorithms
+## Helicopter game
 
-### Dijkstra's Algorithm
+This is a **C-code** for simple **Helicopter Game** using **OpenGL** library.
 
-### Kruskal's Algorithm
+### Steps to run the code.
 
-### Prims Algorithm
+You need to install OpenGL library.
 
-### Traveling salesman Algorithm
+```
+sudo apt-get update.
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
 
-### Huffman Algorithm
+Compiling the code.
+
+```
+gcc main.cpp -o out -lglut -lGLU -lGL
+```
+
+Running the Code.
+
+```
+./out
+```
+
+### Sample Output
+
+<img align="left" alt="output" width="60%" src="./assets/output.png" />
