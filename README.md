@@ -6,7 +6,7 @@
 
 ### [Prims Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/prims-algorithm)
 
-### Traveling salesman Algorithm
+### [Traveling salesman Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/tsp-algorithm)
 
 ### [Huffman Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/huffman-algorithm)
 
