@@ -1,11 +1,47 @@
-## List of Algorithms
+## Simulation of Huffman Algorithm
 
-### Dijkstra's Algorithm
+This is a **C-code** for **Simulation of Huffman Algorithm** using **OpenGL** library.
 
-### Kruskal's Algorithm
+### Steps to run the code.
 
-### Prims Algorithm
+You need to install OpenGL library.
 
-### Traveling salesman Algorithm
+```
+sudo apt-get update.
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
 
-### Huffman Algorithm
+Compiling the code.
+
+```
+gcc -o out  main.cpp  -lGL -lglut -lGLU  -lm -std=c99
+```
+
+Running the Code.
+
+```
+./out
+
+Enter n: 5
+Enter Frequency values: 5 6 0 2 4
+```
+
+### Sample Output
+
+```
+List contents:
+Node : A  frequency:5
+Node : B  frequency:6
+Node : C  frequency:0
+Node : D  frequency:2
+Node : E  frequency:4
+
+Huffman code :
+
+NODE : C  Freq : 0  code: 000
+NODE : D  Freq : 2  code: 001
+NODE : E  Freq : 4  code: 01
+NODE : A  Freq : 5  code: 10
+```
+
+<img align="left" alt="output" width="60%" src="./assets/output.png" />
