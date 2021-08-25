@@ -1,13 +1,28 @@
-## List of Algorithms
+## A Seven Segment Display Simulation
 
-### [Dijkstra's Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/dijkstra-algorithm)
+This is a **C-code** for simple **Seven Segment Display Simulation** using **OpenGL** library. This simulate the number from 0 to 10.
 
-### [Kruskal's Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/kruskal-algorithm)
+### Steps to run the code.
 
-### [Prims Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/prims-algorithm)
+You need to install OpenGL library.
 
-### [Traveling salesman Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/tsp-algorithm)
+```
+sudo apt-get update.
+sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
 
-### [Huffman Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/huffman-algorithm)
+Compiling the code.
 
-### [Helicopter Game](https://github.com/premnathkulal/Algorithm-Simulations/tree/helicopter-game)
+```
+gcc main.c -o out -lglut -lGLU -lGL
+```
+
+Running the Code.
+
+```
+./out
+```
+
+### Sample Output
+
+<img align="left" alt="output" width="60%" src="./assets/output.png" />
