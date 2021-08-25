@@ -11,3 +11,5 @@
 ### [Huffman Algorithm](https://github.com/premnathkulal/Algorithm-Simulations/tree/huffman-algorithm)
 
 ### [Helicopter Game](https://github.com/premnathkulal/Algorithm-Simulations/tree/helicopter-game)
+
+### [Seven Segment Display Simulation](https://github.com/premnathkulal/Algorithm-Simulations/tree/seven-segment-display)
